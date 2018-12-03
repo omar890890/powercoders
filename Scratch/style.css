@@ -1,4 +1,9 @@
 
+p1{
+  color: rgba(12, 132, 231, 0.66);
+}
+/*cotrol +c+alt to change color value*/
+/*cotrol +w+alt to choose element*/
 
 p.warning
  {background-color: red;
@@ -13,12 +18,9 @@ p.warning::before {
   content: "WARNING!:"
 }
 
-
-
-
-
-
 p em
+/!-- for inline elements use this form main element+inline and for block element use hashtag sign--/
+/*comment*/
 {font-style: normal;
   text-decoration: underline;
   te
