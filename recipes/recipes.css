@@ -5,8 +5,7 @@ font-family: "Helvetica", "Arial", sans-serif;;
 line-height: 1.5em;
 padding:  1em 1em;
 color: #555;
-color: rgb(21, 47, 158)
-color: none;
+color: rgb(0, 0, 0);
 }
 
 h1{
@@ -27,6 +26,7 @@ h1{
 
 
      }
+     /**id is more specific than class you can have one id but many class for the same element**/
 
 div#way{
   background-color: rgba(0, 0, 0, 0.14);
