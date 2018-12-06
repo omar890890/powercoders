@@ -15,11 +15,12 @@ p.warning
 }
 
 p.warning::before {
-  content: "WARNING!:"
+  content: "WARNING!: "
+  /*it is a space that caused by esacape in the content*/
 }
 
 p em
-/!-- for inline elements use this form main element+inline and for block element use hashtag sign--/
+/* for inline elements use this form main element+inline and for block element use hashtag sign
 /*comment*/
 {font-style: normal;
   text-decoration: underline;

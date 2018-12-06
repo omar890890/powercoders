@@ -1,0 +1,70 @@
+div#discrepion{
+margin: 1em 3em 2em;
+max-width: 20em;
+font-family: "Helvetica", "Arial", sans-serif;;
+line-height: 1.5em;
+padding:  1em 1em;
+color: #555;
+color: rgb(21, 47, 158)
+color: none;
+}
+
+h1{
+
+      color: #333;
+
+      text-align: center;
+      position:sticky;
+      -webkit-position: sticky;
+      -moz-position: sticky;
+      top: 10px;
+      color: darkblue;
+      font-weight:bolder;
+      font-style: italic;
+      letter-spacing: 10px;
+       background: #eee;
+       background-size: cover;
+
+
+     }
+
+div#way{
+  background-color: rgba(0, 0, 0, 0.14);
+  font-size: normal
+  margin-left: 16px;
+  line-height: 1.2;
+}
+
+
+h2.head{font-family: 'Oswald', sans-serif;
+   text-decoration: underline;
+   padding-left: 2em;
+   padding-right: 2em;
+   background-color: rgba(50, 164, 44, 0.1);
+}
+
+p.introduction
+{border-bottom: 2em;
+  border-radius: 2em;
+font-family: 'Anonymous Pro', monospace;
+font-weight: bold;
+padding-left: 2em;
+padding-right: 2em;
+background-color: rgba(224, 224, 200,1.0 );
+width: 40em;
+}
+
+
+
+      h2{
+        font-family: 'Fredoka One', cursive;
+        border: 12, 14, 5, 5em;
+     }
+span.quantity {font-style: oblique;
+  font-size: 20px;
+  background-color: rgba(150, 180, 160, 0.50);
+  color: darkblue;
+text-decoration-color: blue;
+text-decoration: underline;
+
+     }

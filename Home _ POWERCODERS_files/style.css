@@ -1,0 +1,664 @@
+/* Custom Stylesheet */
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By Madam Monorom / monorom.com
+ */
+
+@import url("particles-grid.css");
+@import url("animate.css");
+@import url("../fonts/fontawesome/web/css/fontawesome-all.min.css");
+
+html {
+	font-size: 16px;
+}
+
+a {
+	color: #007fb7;
+}
+
+a:visited {
+	color: #007fb7;
+}
+
+a:hover {
+	color: rgb(195, 46, 76);
+}
+
+a:active {
+	color: #333;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 1.5rem;
+	margin: 0 0 70px;
+	padding: 15px;
+	background: rgba(195, 46, 76, 0.15);
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 2.1rem;
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0 0 30px;
+}
+
+h2:before {
+	content: "";
+	display: block;
+	border-top: 8px solid rgb(195, 46, 76);
+	width: 80px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-weight: 300;
+	font-size: 1.9rem;
+	line-height: 140%;
+	padding: 0;
+	margin: 0 0 30px;
+}
+
+h4 {
+	font-size: 1.5rem;
+	line-height: 150%;
+	padding: 0;
+	margin: 0 0 20px;
+}
+
+h5 {
+	font-size: 1.3rem;
+	line-height: 140%;
+	margin: 0 0 30px;
+}
+
+h6 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h3.padded-multiline {
+	font-size: 1.7rem;
+	line-height: 1.9;
+	padding: 3px 0;
+	font-weight: 300;
+}
+
+h3.padded-multiline span {
+	background: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	padding: 0.4rem;
+	/* Needs prefixing */
+	box-decoration-break: clone;
+	-webkit-box-decoration-break: clone;
+}
+
+p,
+.collapsible-header
+/* , h1, h2, h3, h4, h5 */
+
+	{
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	-o-hyphens: auto;
+	hyphens: auto;
+}
+
+/* ---------------- colors ---------------- */
+
+.pwc-red-text {
+	color: rgb(195, 46, 76);
+}
+
+.pwc-red {
+	background: rgb(195, 46, 76);
+}
+
+.pwc-red-light20 {
+	background: rgba(195, 46, 76, 0.2);
+
+}
+
+.pwc-red-light40 {
+	background: rgba(195, 46, 76, 0.4);
+}
+
+.pwc-red-light60 {
+	background: rgba(195, 46, 76, 0.6);
+}
+
+.pwc-red-light80 {
+	background: rgba(195, 46, 76, 0.8);
+}
+
+/* ---------------- navigation ---------------- */
+.button_container {
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  height: 27px;
+  width: 35px;
+  width: 30px;
+  cursor: pointer;
+  z-index: 100;
+  -webkit-transition: opacity .25s ease;
+  transition: opacity .25s ease;
+}
+.button_container:hover {
+  opacity: .7;
+}
+.button_container.active .top {
+  -webkit-transform: translateY(9px) translateX(0) rotate(45deg);
+          transform: translateY(9px) translateX(0) rotate(45deg);
+  background: #000;
+}
+.button_container.active .middle {
+  opacity: 0;
+  background: #000;
+}
+.button_container.active .bottom {
+  -webkit-transform: translateY(-9px) translateX(0) rotate(-45deg);
+          transform: translateY(-9px) translateX(0) rotate(-45deg);
+  background: #000;
+}
+.button_container span {
+  background: #5A7247;
+  background:rgba(0,0,0, 0.8);
+  border: none;
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all .35s ease;
+  transition: all .35s ease;
+  cursor: pointer;
+}
+.button_container span:nth-of-type(2) {
+  top: 9px;
+}
+.button_container span:nth-of-type(3) {
+  top: 18px;
+}
+.sidenav {
+	background: none !important;
+	box-shadow: none;
+	padding-top: 80px;
+}
+
+
+.sidenav-overlay:before {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	width: 30em;
+	background: rgb(195, 46, 76);
+	content: '';
+	transform: skewX(15deg) translateX(-20%);
+	transform-origin: bottom left;
+	will-change: transform;
+	transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@media (min-width: 40em) {
+	.sidenav-overlay:before {
+		width: 50em;
+	}
+}
+
+nav {
+	height: auto;
+}
+
+nav ul a,
+nav ul a:visited,
+.sidenav li > a,
+.sidenav li > a:visited {
+	font-size: 18px !important;
+	font-weight: 400 !important;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.sidenav li.active a,
+.sidenav li.active,
+.sidenav li > a:hover {
+	background-color: rgba(0, 0, 0, 0.0);
+	color: #bbb;
+}
+
+nav a.sidenav-trigger {
+	color: #000;
+	/* 	position: fixed;
+	 */
+	top: 20px;
+	left: 0px;
+	background: white;
+	height: 40px;
+	line-height: normal;
+	width: auto;
+	text-align: center;
+}
+
+@media screen and (min-width: 993px) {
+	nav a.sidenav-trigger {
+		display: block;
+	}
+}
+
+/* ---------------- overwrite Materialized ---------------- */
+
+.parallax-container {
+	min-height: 500px;
+	line-height: 0;
+	height: auto;
+	color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+	width: 100%;
+}
+
+.section {
+	padding: 3rem 0;
+}
+
+.col:not(.page-footer .col) > a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #000;
+}
+
+/* ---------------- Logo ---------------- */
+
+.logo img {
+	padding: 30px 0;
+	max-width: 220px;
+}
+
+@media screen and (min-width: 601px) {
+	.logo img {
+		max-width: 350px;
+	}
+}
+
+/* ---------------- animated ---------------- */
+
+.delay02s {
+	animation-delay: 0.2s;
+}
+
+.delay04s {
+	animation-delay: 0.4s;
+}
+
+.animated {
+	visibility: hidden;
+}
+
+.animated.fadeInLeft,
+.animated.fadeInRight,
+.animated.fadeInUp,
+.animated.fadeInDown {
+	visibility: visible;
+}
+
+/* ---------------- Hardruler ---------------- */
+
+hr {
+	border: 0;
+}
+
+hr.whitespace {
+	border-bottom: 1px solid #fff;
+	margin: 40px 0;
+}
+
+/* ---------------- Accordion ---------------- */
+
+.collapsible {
+	margin: 10px 0 70px;
+}
+
+.collapsible-header:before {
+	font-family: 'Font Awesome 5 Free';
+	font-size: 1.1em;
+	content: "\f105";
+	content: "\f105";
+	color: rgb(195, 46, 76);
+	padding: 0 5px 0 0;
+	width: 20px;
+	font-variant: normal;
+	text-rendering: auto;
+	font-weight: 600;
+}
+
+.collapsible-header h6 {
+	margin-top: 3px;
+}
+
+.active .collapsible-header:before {
+	font-family: 'Font Awesome 5 Free';
+	font-size: 1.1em;
+	content: "\f107";
+	color: rgb(195, 46, 76);
+	font-variant: normal;
+	text-rendering: auto;
+	font-weight: 600;
+}
+
+.collapsible-header:hover {
+	background: #f5f5f5;
+}
+
+.active .collapsible-header {
+	background: #eee;
+}
+
+:focus {
+	outline: none;
+}
+
+/* ---------------- List ---------------- */
+
+ul.nobullet {
+	margin: 25px 0;
+}
+
+ul.nobullet li:before {
+	content: "– ";
+	display: inline-block;
+	width: 20px;
+}
+
+ul.press {
+	margin: 0 0 50px;
+	border-top: 1px dotted #bbb;
+}
+
+.press li {
+	line-height: 1.6rem;
+	margin: 0 0 0px;
+	border-bottom: 1px dotted #bbb;
+	padding: 10px 0;
+}
+
+.past-city {
+	margin: 0.5rem 0 1rem 0;
+	border: 1px solid #e0e0e0;
+	border-radius: 2px;
+}
+
+.past-city li:not(:last-child) {
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.past-city li {
+	line-height: 1.5rem;
+	margin: 0;
+}
+
+.past-city li:before {
+	font-family: 'Font Awesome 5 Free';
+	font-size: 1.8rem;
+	content: "\f105";
+	color: #666;
+	width: 40px;
+	float: right;
+	padding-top: 30px;
+	font-variant: normal;
+	text-rendering: auto;
+	font-weight: 600;
+}
+
+.past-city li:hover:before {
+	color: rgb(195, 46, 76);
+}
+
+.past-city a {
+	display: block;
+	padding: 10px 20px;
+	color: #333;
+}
+
+.past-city a:hover {
+	background: #f5f5f5;
+}
+
+@media screen and (min-width: 601px) {
+	.past-city h6 {
+		display: inline-block;
+		width: 150px;
+	}
+	.past-city li:before {
+		padding-top: 20px;
+	}
+}
+
+/* ---------------- Buttons & Box mit Button---------------- */
+
+a.btn {
+	color: white;
+}
+
+.btn-box > a {
+	display: block;
+	color: #000;
+	padding: 20px 20px 60px;
+}
+
+.btn-box object {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+}
+
+.btn-box h2 {
+	font-size: 2rem;
+	margin-top: 0;
+}
+
+.latest-box {
+	border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.latest-box > a {
+	display: block;
+	color: #000;
+	padding: 20px 20px 40px;
+}
+
+.latest {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: 700;
+}
+
+.latest-box h6 i,
+.btn-box h6 i {
+	padding-right: 20px;
+	vertical-align: middle;
+}
+
+.border {
+	border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.redborder {
+	border: 1px dotted rgb(195, 46, 76);
+	;
+}
+
+/* ---------------- portrait & partner---------------- */
+
+.portrait .col div {
+	overflow: hidden;
+}
+
+.portrait p {
+	margin: 5px 0;
+	font-size: .85rem;
+	-moz-hyphens: none;
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	-o-hyphens: none;
+	hyphens: none;
+}
+
+.portrait strong {
+	font-weight: 600;
+	font-size: .9rem;
+}
+
+.portrait img {
+	transition: all 0.3s ease-in-out;
+	float: left;
+}
+
+.portrait .col:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+img.partner {
+	filter: grayscale( 1);
+}
+
+
+/* ---------------- video-images ---------------- */
+
+img.responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* ---------------- Timeline ---------------- */
+
+.timeline {
+	border-left: 4px solid #C32E4C;
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+	margin: 0 0 0 120px;
+	letter-spacing: 0.5px;
+	position: relative;
+	line-height: 1.4em;
+	font-size: 1.03em;
+	padding: 50px 0 20px 50px !important;
+	list-style: none;
+	text-align: left;
+}
+
+.timeline .event {
+	border-bottom: 1px dotted #C32E4C;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.timeline .event:last-of-type {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+	position: absolute;
+	display: block;
+	top: 0;
+}
+
+.timeline .event:before {
+	left: -217.5px;
+	content: attr(data-date);
+	text-align: right;
+	font-size: 0.9em;
+	width: 120px;
+}
+
+.timeline .event:after {
+	box-shadow: 0 0 0 4px #C32E4C;
+	left: -57.85px;
+	background: #fff;
+	border-radius: 50%;
+	height: 11px;
+	width: 11px;
+	content: "";
+	top: 5px;
+}
+
+/* ---------------- footer ---------------- */
+
+footer.page-footer {
+	margin: 0;
+	background: rgb(195, 46, 76)
+}
+
+footer.page-footer .btn.pwc-red-light20 {
+	background: #e7abb7;
+	color: black;
+}
+
+footer.page-footer h5 {
+	font-size: 1rem;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+footer.page-footer a {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+footer.page-footer a:hover {
+	color: rgb(255, 255, 255);
+}
+
+footer.page-footer i {
+	margin-right: 20px;
+}
+
+.footer-copyright {
+	margin-top: 40px;
+
+}
+
+@media screen and (min-width: 601px) {
+	.social {
+		text-align: right;
+	}
+}

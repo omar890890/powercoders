@@ -2,50 +2,121 @@
 <html>
    <head>
      <title>html knowledge page</title>
+     <style type="text/css">
+      h1{color:blue;
+        }
+     #elements{ color:green; font-size: 18px; background-color: white;
+     }
+    #inline {color: blue;
+
+    }
+    #emphasis{color: red;
+
+    }
+
+      p.inlines{padding-left: 3em
+
+      }
+      /!--Insert white space of different widths. You can insert a longer space by using any one of the following options:[3]
+Two spaces - Type in &ensp;
+Four spaces - Type in &emsp;
+Tab - Type in &nbsp;&nbsp;&nbsp;&nbsp;-- or Insert a non-breaking space. Normally, HTML will only display one space between words, no matter how many times you press the space bar. To force an extra space to show up, type &nbsp; in the area where you want to force the space.[1]
+For example, typing Hello &nbsp; there! would result in an extra space between "Hello" and "there!"
+This is called a non-breaking space because it prevents a line break at its location. If you overuse this character, browsers will have trouble inserting line breaks in a tidy, readable way.[2]
+You can also type &#160; to force a space.
+/
+
+     </style>
   </head>
   <body>
     <div id="html form">
-    <h1> html general structure goes like following</h1>
-    <p>&lt;!DOCTYPE htm &gt;<br/>
-         &lt;html &gt;<br/>
-         &nbsp; &nbsp;
-        &lt;head &gt;<br/>
-        &nbsp;&nbsp; &nbsp;
-        &lt;title &gt;for example &lt;/title &gt;<br/>
-        &nbsp; &nbsp;
-        &lt; head&gt;<br/>
-        &nbsp; &nbsp;
-        &lt;body &gt; here you can add what ever you want &lt;/body &gt;<br/>
+    <h1> HTML language</h1>
+    <p>
+    <ul>
+              <li> &lt;!DOCTYPE html &gt;</li>
+              <li> &lt;html &gt;</li>
+              <li>&lt;head &gt;
+                <ul>
+                   <li>&lt;title &gt;for example &lt;/title &gt;</li>
+                </ul>
+              </li>
+              <li> &lt; head&gt;</li>
+              <li>&lt;body &gt; here you can add what ever you want &lt;/body &gt;</li>
+              <li> &lt;/html &gt;</li>
+     </ul>
+     </p>
+    </div>
+    <p>
+      <h2>HTML Block&#160; and Inline Elements</h2>
+      <p>Every HTML element has a default display value depending on what type of element it is.
+         The default display value for most elements is block or inline.</p>
+    <h2>Block-level Elements</h2>
+    <p>A block-level element always starts on a new line and takes up the full width available
+      (stretches out to the left and right as far as it can).</p>
+    <h3>  Block level elements in HTML:</h3>
+      <div id="elements">
+     &lt;address &gt;  &lt;article &gt; &lt;aside &gt;  &lt;blockqoute &gt; &lt;canvas &gt;
 
-        &lt;/html &gt;<br/></p>
-      </div>
-  <div id="html elements">
-     <h2>some html block- and inlinel-level elements</h2>
-          <ol><li>you can use 6 different writing sizes, which start from big to small, form&lt;h1 &gt;to &lt;h6&gt;</li>
-          <li>&lt;div &gt; is an element which defines a section, It used to use with a block element.<ul>
-          <li>In the opposit to &lt;span &gt;which is useful to have more acssecs to the inline elements.</li></ul>
-          </li>
-          <li> to insert an image to your html code use the element&lt;img&gt;</li>
-          </ol>
+     &lt;dd &gt;  &lt;div &gt; &lt;dl &gt;  &lt;dt &gt;  &lt;fieldest&gt;
+
+     &lt;figcaption &gt;  &lt;figure &gt; &lt;footer &gt;  &lt;formm &gt; &lt;h1&gt;-&lt;h6&gt;
+
+     &lt;header &gt;  &lt;hr &gt; &lt;li &gt;  &lt;main &gt;  &lt;nav&gt;
+
+     &lt;noscript &gt;  &lt;ol &gt; &lt;output &gt;  &lt;p &gt; &lt;pre &gt;
+
+     &lt;section &gt;  &lt;table &gt; &lt;tfoot &gt;  &lt;ul &gt;  &lt;video &gt;.
+
    </div>
-  <table>
+    </p>
+
+    <div id="inline">
+
+    <h2>Inline Elements</h2>
+    <p class="inlines">
+      An inline element does not start on a new line
+       and only takes up as much width as necessary.
+    </p>
+    &lt;a &gt;  &lt;abbr &gt; &lt;acronym &gt;  &lt;b &gt; &lt;bdo &gt;
+
+    &lt;big &gt;  &lt;br &gt; &lt;button &gt;  &lt;cite &gt;  &lt;code&gt;
+
+    &lt;dfn &gt;  <span class="emphasis">
+
+    &lt;em</span> &gt; &lt;i &gt;  &lt;img &gt; &lt;input&gt;
+
+    &lt;kbd &gt;  &lt;label &gt; &lt;map &gt;  &lt;object &gt;  &lt;q&gt;
+
+    &lt;strong &gt;  &lt;script&gt; &lt;select &gt;  &lt;small &gt; &lt;span&gt;
+
+    &lt;tt &gt;  &lt;var &gt;.
+    </div>
+
+    <h2>The &lt;div&gt; Element</h2>
+    <p> The &lt;div &gt; element is often used as a container for other HTML elements.
+        The &lt;div &gt; element has no required attributes, but style, class and id are common.
+       When used together with CSS, the &lt;div &gt; element can be used to style blocks of content:
+       </p>
+       <h2>The &lt;span&gt;Element</h2>
+       <p>The &lt;span&gt; element is often used as a container for some text.
+         The &lt;span&gt; element has no required attributes, but style, class and id are common.
+         When used together with CSS, the &lt;span&gt; element can be used to style parts of the text:
+      </p>
+      <h2>HTML Grouping Tags</h2>
+      <table border="2px" padding="5px">
         <tr>
-          <th>charachter</th>
-            <th>charachter</th>
-              <th>charachter</th>
-
-
-
+          <th>Tag</th>
+          <th>Description</th>
         </tr>
         <tr>
-        <ti>  &amp;</ti>
-          <ti>  &lt;</ti>
-          <ti>
-          &gt;
-        </ti>
+          <td>&lt;div&gt;</td>
+          <td>Defines a section in a document (block-level)</td>
         </tr>
-</table>
+        <tr>
+          <td>&lt;span&gt;</td>
+          <td>Defines a section in a document (inline)</td>
+        </tr>
+      </table>
 
-
-</body>
+  </body>
 </html>
