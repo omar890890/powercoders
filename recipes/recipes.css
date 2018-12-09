@@ -1,3 +1,10 @@
+
+body{
+
+ background: rgb(233, 244, 37, 0.4);
+border-bottom: 1px solid #d8dee9;
+}
+
 div#discrepion{
 margin: 1em 3em 2em;
 max-width: 20em;
@@ -29,10 +36,13 @@ h1{
      /**id is more specific than class you can have one id but many class for the same element**/
 
 div#way{
-  background-color: rgba(0, 0, 0, 0.14);
+  background-color: rgba(0, 0, 0, 0.18);
   font-size: normal
-  margin-left: 16px;
-  line-height: 1.2;
+  color: black;
+  font-weight: bold;
+  border-radius: 1.2em;
+  padding: 1em 0 1em 2em;
+  margin: 0 0 5em;
 }
 
 

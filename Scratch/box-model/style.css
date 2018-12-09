@@ -1,0 +1,19 @@
+/*  {border: 1px solid black; /*margin: 0px;} p, li { padding-top: .5em; padding-bottom: 1.5em; }*/
+/* block element */
+*{
+  border: .5em solid rgba( 0, 0, 0, 0.5);
+
+ }
+p, li ,em {
+  color: white;
+  padding: .5em;
+  margin: .5em;
+
+}
+p{
+  background-color: blue;
+
+}
+li {
+  background-color: red;
+}
