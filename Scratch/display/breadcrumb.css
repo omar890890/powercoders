@@ -1,16 +1,41 @@
-
 ul.breadcrumb {
   padding: 0;
   background-color: lightgrey;
 }
+@media screen and (min-width: 600px) {
+  ul.breadcrumb li {
+    display: inline-block;
+  }
+  ul.breadcrumb li::before {
+    content: " > ";
+  }
+  ul.breadcrumb li:first-child::before{
+    content: "";
+  }
+  }
 
+  @media screen and (max-width: 600px) {
 
-ul.breadcrumb li {
-  display:  inline-block;
+  ul.breadcrumb li::before {
+    display: inline-block;
+    content: "\2ba1";
+    min-width: 1em;
+  }
+
+  ul.breadcrumb li:first-child::before {
+    content: "";
+    min-width: 0;
+  }
+
+  ul.breadcrumb li:nth-child(2) {
+    padding-left: 1em;
 }
-ul.breadcrumb li::before {
-  content: " > ";
+
+ul.breadcrumb li:nth-child(3) {
+  padding-left: 2em;
 }
-ul.breadcrumb li:first-child::before {
-  content: "";
+
+ul.breadcrumb li:nth-child(n+4) {
+  padding-left: 3em;
+}
 }

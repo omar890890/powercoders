@@ -1,0 +1,31 @@
+body {
+  border: 1px solid black;
+  position: relative;
+  margin: 0;
+}
+
+div {
+  position: relative;
+}
+
+.pos-static {
+  position: static;
+  background-color: yellow;
+}
+
+.pos-relative {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  background-color: blue;
+  color: white;
+}
+
+.pos-absolute {
+  position: absolute;
+  background-color: red;
+  color: white;
+  top: 20px;
+  left: 10px;
+}
+"§"""$%&/())==?´´*Ü

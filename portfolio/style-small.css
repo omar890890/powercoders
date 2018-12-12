@@ -1,0 +1,13 @@
+div {
+  border: 5px none rgba(0, 0, 0, .5);
+}
+
+body {
+  position: relative;
+  font-family: 'Anonymous Pro', monospace;
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}

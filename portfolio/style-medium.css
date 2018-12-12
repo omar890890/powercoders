@@ -1,0 +1,37 @@
+div{
+  max-width: 700px;
+}
+
+
+
+
+h1 {
+  color: red;
+}
+
+#container-personal-info {
+  position: relative;
+}
+
+#personal-info {
+  width: 50%;
+}
+
+#container-personal-info img {
+  position: absolute;
+  right: 0;
+}
+
+#main-container{
+  position: relative;
+}
+
+#general-knowledge, #other-skills{
+  width: 50%;
+  position: absolute;
+  top: 0;
+}
+
+#other-skills{
+  left: 50%;
+}

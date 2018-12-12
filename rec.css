@@ -1,0 +1,16 @@
+body, span {
+  border: 1em solid rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+span#inline {
+  display: inline;
+}
+
+span#block {
+  display: block;
+}
+
+span.inline-block {
+  display: inline-block;
+}

@@ -1,6 +1,12 @@
 
-body{
+body.alink{
+  link="#C0C0C0" vlink="#808080" alink="#FF0000";
+}
 
+
+
+
+body{
  background: rgb(233, 244, 37, 0.4);
 border-bottom: 1px solid #d8dee9;
 }
@@ -66,9 +72,16 @@ width: 40em;
 
 
 
-      h2{
+      h2.meth{
         font-family: 'Fredoka One', cursive;
-        border: 12, 14, 5, 5em;
+        border: 5px  dashed rgba(255, 0, 0, 0.5);
+        text-transform: capitalize;
+        font-weight: bold;
+        text-shadow: 32px 5px 0px green;
+        display: block;
+
+
+
      }
 span.quantity {font-style: oblique;
   font-size: 20px;
@@ -77,4 +90,7 @@ span.quantity {font-style: oblique;
 text-decoration-color: blue;
 text-decoration: underline;
 
+     }
+     h2.fish{
+       text
      }

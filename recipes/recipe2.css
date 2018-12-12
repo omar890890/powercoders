@@ -1,0 +1,45 @@
+body {
+  background-color: rgba(93, 136, 135, 0.50);
+  margin-bottom: 2em;
+}
+
+div#discrepion {
+  position: relative;
+}
+
+h1 {
+  border: 0.5em solid rgba(255, 0, 0, 0.5);
+  border-top-width: 1em;
+  border-style: inset;
+  border-top-style: hidden;
+  border-radius: 1em;
+  margin-top: .5em;
+  margin-bottom: 1em;
+  color: rgb(74, 187, 109);
+  padding: 0.5em;
+}
+
+h2.INGREDIENT {
+  color: blue;
+  border: 1em solid rgba(0, 225, 0, 0.5);
+  border-bottom-style: dotted;
+  padding-left: 25%;
+  font-display: block;
+  font-style: bolder;
+  font-family: sans-serif;
+  letter-spacing: 1em;
+  margin-left: 1em;
+  text-shadow: 2px 2px 2px black;
+}
+
+h2.INGREDIENT::before {
+  content: "first:";
+  color: red;
+  padding-right: 5em;
+  padding-top: 2em;
+  text-transform: capitalize;
+}
+
+h2.art {
+
+}
