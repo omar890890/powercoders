@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>change_para_class</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <p id="mypara">this is a paragraph of text that can change style. use the options beloew to change how this looks.</p>
+     <p onclick="listenForClick(event);">add some text here</p>
+    <ul>
+      <li onclick="setClassWarning(event)">make it a warning</li>
+      <li onclick="setClassTip(event)">make it a tip</li>
+      <li onclick="clearClass(event)">make it normal</li>
+    </ul>
+
+    <p class="warning">this is an example warning </p>
+    <p class="tip">this is an example tip.</p>
+
+    <script type="text/javascript">
+      // javascript code goes here
+      console.log('my code is running!');
+
+      function greet(name) {
+        console.log('hello, ' + name);
+      }
+
+
+        function setClassWarning(event) {
+        let el = document.getElementById('mypara');
+        el.className = 'warning';
+       }
+
+       function setClassTip(event) {
+       let el = document.getElementById('mypara');
+       el.className = 'tip';
+       }
+
+       function clearClass(event) {
+         console.log(event);
+       let el = document.getElementById('mypara');
+       el.className = '';
+
+       }
+
+
+
+    </script>
+
+
+
+  </body>
+
+</html>
