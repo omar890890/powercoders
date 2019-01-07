@@ -2,6 +2,10 @@ h1 {
     background-color: bisque;
 }
 
-#item {
+div {
+    font-size: xx-large;
+}
+
+#item{
     font-size: x-large;
 }
