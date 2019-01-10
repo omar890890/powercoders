@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
     }
   });
 });
-//
+
 function createNewListItem(itemText) {
   console.log(itemText);
   let li = document.createElement('li');
