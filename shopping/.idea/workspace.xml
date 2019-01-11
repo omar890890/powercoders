@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3730e835-e797-473c-affe-04e0f5448b9f" name="Default Changelist" comment="">
+    <list default="true" id="3730e835-e797-473c-affe-04e0f5448b9f" name="Default Changelist" comment="enable and disable button by downloading and by empty box">
       <change beforePath="$PROJECT_DIR$/../Scratch/dom/change.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Scratch/dom/change.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping.js" afterDir="false" />
@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shopping.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="280">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -50,6 +50,10 @@
     <findStrings>
       <find>focus</find>
     </findStrings>
+    <replaceStrings>
+      <replace>const</replace>
+      <replace>const</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -137,7 +141,7 @@
       <workItem from="1546852132718" duration="1603000" />
       <workItem from="1546854644709" duration="8939000" />
       <workItem from="1546870794873" duration="30001000" />
-      <workItem from="1547193596257" duration="16683000" />
+      <workItem from="1547193596257" duration="18258000" />
     </task>
     <task id="LOCAL-00001" summary="Initial skeleton for the shopping list.&#10;&#10;- Basic HTML structure&#10;- Empty CSS&#10;- Empty Javascript">
       <created>1546852574510</created>
@@ -174,11 +178,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547130972427</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="enable and disable button by downloading and by empty box">
+      <created>1547218589126</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1547218589126</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57779000" />
+    <option name="totallyTimeSpent" value="59354000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -191,6 +202,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13117066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -232,7 +244,8 @@
     <MESSAGE value="add a button to HTML file" />
     <MESSAGE value="Button click listener" />
     <MESSAGE value="delete the input box content after adding an item to the list item" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete the input box content after adding an item to the list item" />
+    <MESSAGE value="enable and disable button by downloading and by empty box" />
+    <option name="LAST_COMMIT_MESSAGE" value="enable and disable button by downloading and by empty box" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html">
@@ -261,8 +274,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shopping.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="280">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>

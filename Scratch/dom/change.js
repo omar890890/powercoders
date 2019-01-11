@@ -1,6 +1,6 @@
 function x(event){
     let el = document.getElementById('header');
-  el.className= 'tip';
+  el.className = 'tip';
 }
 
 document.write('hello world');
