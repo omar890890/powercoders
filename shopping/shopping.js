@@ -5,23 +5,25 @@ document.addEventListener('DOMContentLoaded', function (event) {
   document.querySelector('button').addEventListener('click', function (event) {
     let inputValue = inputBox.value;
     let listItem = createNewListItem(inputValue);
-    shoppingList.appendChild(listItem);
-    inputBox.value = '';
+    if (inputBox.value.trim() !== '') {
+      shoppingList.appendChild(listItem).trim();
+    }
+    // inputBox.value = '';
     inputBox.focus();
   });
 
   inputBox.addEventListener('keyup', function (event) {
-    if (event.key === 'Enter') {
-      let li = createNewListItem(inputBox.value);
-      shoppingList.appendChild(li);
-      inputBox.value = '';
+    if (inputBox.value.trim() !== '') {
+      if (event.key === 'Enter') {
+        let li = createNewListItem(inputBox.value.trim());
+        shoppingList.appendChild(li);
+        inputBox.value = '';
+      }
       console.log(event.key);
     }
   });
-
   inputBox.focus();
 });
-
 
 function createNewListItem(itemText) {
   console.log(itemText);
