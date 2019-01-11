@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3730e835-e797-473c-affe-04e0f5448b9f" name="Default Changelist" comment="">
+    <list default="true" id="3730e835-e797-473c-affe-04e0f5448b9f" name="Default Changelist" comment="delete the input box content after adding an item to the list item">
       <change beforePath="$PROJECT_DIR$/../Scratch/dom/change.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Scratch/dom/change.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping.js" afterDir="false" />
@@ -38,13 +38,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shopping.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <state relative-caret-position="236">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>focus</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -70,7 +75,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -82,6 +86,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -90,6 +95,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
   </component>
   <component name="RunDashboard">
@@ -130,7 +136,8 @@
       <workItem from="1546851419106" duration="553000" />
       <workItem from="1546852132718" duration="1603000" />
       <workItem from="1546854644709" duration="8939000" />
-      <workItem from="1546870794873" duration="25719000" />
+      <workItem from="1546870794873" duration="30001000" />
+      <workItem from="1547193596257" duration="4578000" />
     </task>
     <task id="LOCAL-00001" summary="Initial skeleton for the shopping list.&#10;&#10;- Basic HTML structure&#10;- Empty CSS&#10;- Empty Javascript">
       <created>1546852574510</created>
@@ -160,11 +167,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546868487686</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="delete the input box content after adding an item to the list item">
+      <created>1547130972427</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547130972427</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36814000" />
+    <option name="totallyTimeSpent" value="45674000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -179,19 +193,19 @@
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.021156559" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13117066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992948" weight="0.39975095" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4992948" visible="true" weight="0.0373599" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4992948" weight="0.32876712" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4992948" weight="0.0373599" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.36363637" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.43835616" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50070524" side_tool="true" weight="0.39975095" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.45330012" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -218,7 +232,8 @@
     <MESSAGE value="adding empty box to the page using label element" />
     <MESSAGE value="add a button to HTML file" />
     <MESSAGE value="Button click listener" />
-    <option name="LAST_COMMIT_MESSAGE" value="Button click listener" />
+    <MESSAGE value="delete the input box content after adding an item to the list item" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete the input box content after adding an item to the list item" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html">
@@ -231,13 +246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -245,10 +253,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shopping.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        <state relative-caret-position="236">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>

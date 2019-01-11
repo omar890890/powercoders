@@ -1,23 +1,27 @@
 document.addEventListener('DOMContentLoaded', function (event) {
+  let inputBox = document.getElementById('item');
+  let shoppingList = document.querySelector('ul');
+
   document.querySelector('button').addEventListener('click', function (event) {
-    let inputBox = document.getElementById('item');
     let inputValue = inputBox.value;
     let listItem = createNewListItem(inputValue);
-    let list = document.querySelector('ul');
-    list.appendChild(listItem);
+    shoppingList.appendChild(listItem);
     inputBox.value = '';
+    inputBox.focus();
   });
 
-  document.querySelector('input').addEventListener('keyup', function (event) {
+  inputBox.addEventListener('keyup', function (event) {
     if (event.key === 'Enter') {
-      let inputBox = document.getElementById('item');
       let li = createNewListItem(inputBox.value);
-      document.querySelector('ul').appendChild(li);
+      shoppingList.appendChild(li);
       inputBox.value = '';
       console.log(event.key);
     }
   });
+
+  inputBox.focus();
 });
+
 
 function createNewListItem(itemText) {
   console.log(itemText);
