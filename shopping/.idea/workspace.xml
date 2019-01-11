@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3730e835-e797-473c-affe-04e0f5448b9f" name="Default Changelist" comment="delete the input box content after adding an item to the list item">
+    <list default="true" id="3730e835-e797-473c-affe-04e0f5448b9f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Scratch/dom/change.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Scratch/dom/change.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping.js" afterDir="false" />
@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shopping.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="252">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -137,7 +137,7 @@
       <workItem from="1546852132718" duration="1603000" />
       <workItem from="1546854644709" duration="8939000" />
       <workItem from="1546870794873" duration="30001000" />
-      <workItem from="1547193596257" duration="11221000" />
+      <workItem from="1547193596257" duration="16683000" />
     </task>
     <task id="LOCAL-00001" summary="Initial skeleton for the shopping list.&#10;&#10;- Basic HTML structure&#10;- Empty CSS&#10;- Empty Javascript">
       <created>1546852574510</created>
@@ -178,7 +178,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52317000" />
+    <option name="totallyTimeSpent" value="57779000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -191,15 +191,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13117066" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13117066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4992948" visible="true" weight="0.0373599" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992948" weight="0.501868" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4992948" weight="0.0373599" />
@@ -262,8 +261,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shopping.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="252">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>

@@ -1,19 +1,23 @@
 document.addEventListener('DOMContentLoaded', function (event) {
   let inputBox = document.getElementById('item');
   let shoppingList = document.querySelector('ul');
+  let addItemButton = document.querySelector('button')
 
   document.querySelector('button').addEventListener('click', function (event) {
     let inputValue = inputBox.value;
     let listItem = createNewListItem(inputValue);
     if (inputBox.value.trim() !== '') {
-      shoppingList.appendChild(listItem).trim();
+      shoppingList.appendChild(listItem);
+      addItemButton.disabled = true;
     }
-    // inputBox.value = '';
+    inputBox.value = '';
     inputBox.focus();
+
   });
 
   inputBox.addEventListener('keyup', function (event) {
     if (inputBox.value.trim() !== '') {
+      addItemButton.disabled = false;
       if (event.key === 'Enter') {
         let li = createNewListItem(inputBox.value.trim());
         shoppingList.appendChild(li);
@@ -21,7 +25,11 @@ document.addEventListener('DOMContentLoaded', function (event) {
       }
       console.log(event.key);
     }
+    if (inputBox.value.trim() === '') {
+      addItemButton.disabled = true;
+    }
   });
+  addItemButton.disabled = true;
   inputBox.focus();
 });
 
