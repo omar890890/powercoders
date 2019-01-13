@@ -1,0 +1,72 @@
+Description of "shopping.js" file line by line:
+
+1-the first line adds a method "addEventListener" on the DOM object
+  in the global document variable to the page, that
+  tells the browser to listen to the page and first when it
+  downloaded run the following function() with one parameter.
+
+2-At the line 2 we make a variable using a variable character "const"
+  called inputBox because we will use it several times, it is practical
+  to have it in a
+  variable, that we can call, when we need it.
+  we use the method "gitElementById" to git Input element in
+  the global document.
+  There are many ways to declare variables for example by using
+  the following keys: Var, let and const.
+  Const is used for variables, that are constant in the opposite to the let,
+  which can be used when we need multiply to change the value of the variables .
+
+  The same concept for the third and fourth lines, but in these lines
+  I used another method to call the elements.
+  This method gives you more control on the elements and finally on your
+  html file.
+
+3-line 6 is calling the "button" element and adds an eventListener to it,
+  which has tow parameters.
+  the first one is a click event and the second one is a function with single
+  event parameter. The function will be fired, when the user click on the button.
+
+4-The function will create many new variables meanly it starts with the inputValue line 7,
+  which we get from user then it put this value in a new created listItem at line 8
+   by calling our function "createNewListItem".
+  to that point we can not see any thing on our page, but we can see a list item in
+  the console but it still not appended to the "ul" list.
+
+5-To avoid empty and whitespaces from the user we put at the 9 an "if statement or condition".
+  the line 9 tells the browser to append the new list item to the "ul list", that means to our
+  page in case the condition is right in other case the browser will jump over this code to the
+  next block or step.
+
+6-Till here it is pretty good but we have a small issue, we want to disable the button
+  after adding a new list item so we disable it at line 9 then we want an empty and focused
+  input box,that happens at lines 13 & 14.
+
+7-At the line 18 we add an eventListener to the input box, the method eventListener takes
+  tow parameters, first one is the event "keyup", which happens when the user release the key,
+  but we should add some conditions to this process, the first the input box must not be an empty
+  string and it must not have whitespaces then the key will be enabled at line 19, second
+  the pressed key must be the "Enter key" line 20.
+  The function runs and creates a list item by using our CreateNewListItem including some tow conditions, one
+  is the input box value and the condition the input content should be empty from whitespaces,
+  then it starts to append li to the shopping list
+  and finally it sets the input line to an empty string at line 23.
+
+8-At line 27 the browser checks the condition in "if statement" if it write is and then it makes
+  the button to the disabled mode because the condition is true.
+
+9-The lines 31 and 32 runs when we reload or download the page at the beginning.
+  so it turns the button to disable and focuses on the input box.
+
+10-from the line 37 to 44 the it creates the following structure
+ <li><span>itemText</span><button>Go</button></li>.
+
+11-At line 49 we add an EventListener to the already created button element with tow
+   parameters, first one is click event and the second is the function, which is
+   responsible for deleting the item after clicking on the button and it declares the
+   deleted item name with the the text between the single quotes in the console on line 50.
+   line 51 removes the "li".
+   line 52 sets the focus again to the input box.
+
+12-Line 53 returns the li list item.
+
+
