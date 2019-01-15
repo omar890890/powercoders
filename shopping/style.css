@@ -1,11 +1,81 @@
+body {
+    background-image: url("baby-clothes-clothing.jpg");
+    font-family: 'Merriweather', serif;
+}
+
+div{
+    background-color: #B8C4F3;
+    align-self: center;
+    padding : 1em 0;
+    border-radius: 30em;
+    position: sticky;
+    top: 2em;
+}
+
 h1 {
-    background-color: bisque;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-underline-color: black;
+    padding: 0 1em 1em;
+    font-family: 'Sarabun', sans-serif;
+    font-stretch: semi-expanded;
+    text-transform: capitalize;
+    text-align: center;
 }
 
-div {
-    font-size: xx-large;
+#item {
+    font-size: x-large;
+    font-family: 'Righteous', cursive;
 }
 
-#item{
+button {
+    color: black;
+    background-color: gainsboro;
     font-size: x-large;
 }
+
+button:hover {
+    color: #ffffff;
+    text-transform: capitalize;
+    background-color: #11F342;
+}
+
+label {
+    font-weight: bold;
+    padding-left: .5em;
+}
+
+li button {
+    color: rgba(0, 0, 0, 1.0);
+    background-color: white;
+    border-radius: 60%;
+    border: 1px solid green;
+    padding: 1px;
+    font-size: 32px;
+    text-decoration-style: solid;
+    margin-left: 4em;
+    margin-bottom: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 100px;
+}
+
+li button:hover {
+    background-color: darkred;
+}
+
+
+.warning {
+    display: none;
+}
+
+#hidden {
+    display: flow;
+    color: red;
+}
+
+li {
+    background-color: gainsboro;
+    padding: 1em 1em 0;
+}
+

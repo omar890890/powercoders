@@ -3,23 +3,30 @@
   <head>
     <title>Shopping</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Righteous|Sarabun" rel="stylesheet">
     <script src="shopping.js"></script>
   </head>
 
   <body>
-    <h1>my shopping list</h1>
+    <h1>Kids Clothes</h1>
 
     <!-- controls to ass new items go here -->
     <div>
-      <label for="item">Enter a new item: </label>
-      <input type="text" id="item" placeholder="type something to buy">
-      <button>Go</button>
+      <div id="position">
+        <label for="item">Enter a new item: </label>
+        <input type="text" id="item" placeholder="type here to buy">
+        <button>Go<i class="fas fa-shopping-cart"></i></button>
+        <p><span id="hidden" class="warning">please write something to buy</span></p>
+      </div>
     </div>
 
     <!-- this is the shopping list -->
 
     <ul>
-        <!-- list item will be added and removed here :-)-->
+
+    <!-- list item will be added and removed here :-)-->
+
     </ul>
   </body>
 </html>
