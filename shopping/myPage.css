@@ -1,0 +1,58 @@
+html {
+  background: url("mypage.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Merriweather', serif;
+  font-weight: bolder;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#text {
+  font-size: 28px;
+}
+
+#clickButton {
+  display: inline-block;
+  padding: 10px 25px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px #999;
+  transition-duration: 0.1s;
+}
+
+#clickButton:hover {
+  background-color: red;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+  padding: 15px 20px;
+  border-bottom: 1px solid #9f9f9f;
+  transition-duration: 0.2s;
+}
+
+li:hover {
+  background-color: #dfdfdf;
+  transition-duration: 0.2s;
+}
+
+.selected {
+  background-color: #99ffaa;
+}
+
