@@ -4,19 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/shopping.js" line="76" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3730e835-e797-473c-affe-04e0f5448b9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myPage.js" afterDir="false" />
+    <list default="true" id="3730e835-e797-473c-affe-04e0f5448b9f" name="Default Changelist" comment="create new page and add some dynamic action to the page elements.">
       <change beforePath="$PROJECT_DIR$/../portfolio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/cv-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/cv-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../recipes/probe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../recipes/probe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../recipes/recipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../recipes/recipe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../recipes/recipes.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recipes/recipes.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/myPage.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,47 +33,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="-168">
+              <caret line="6" selection-start-line="5" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopping.js">
+        <entry file="file://$PROJECT_DIR$/myPage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1674">
-              <caret line="124" column="2" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="2" />
-              <folding>
-                <element signature="n#!!doc;n#createNewListItem#0" />
-                <element signature="n#!!block;n#createNewListItem#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="37" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="6" selection-end-column="37" />
+            <state relative-caret-position="865">
+              <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myPage.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="868">
               <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
@@ -104,9 +77,9 @@
         <option value="$PROJECT_DIR$/shopping.txt" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/shopping.js" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/myPage.html" />
         <option value="$PROJECT_DIR$/myPage.js" />
+        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/myPage.css" />
       </list>
     </option>
@@ -159,17 +132,12 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/shopping/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/shopping/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="shopping.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/shopping.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -186,7 +154,7 @@
       <workItem from="1546854644709" duration="8939000" />
       <workItem from="1546870794873" duration="30001000" />
       <workItem from="1547193596257" duration="93950000" />
-      <workItem from="1547735134884" duration="54797000" />
+      <workItem from="1547735134884" duration="59845000" />
     </task>
     <task id="LOCAL-00001" summary="Initial skeleton for the shopping list.&#10;&#10;- Basic HTML structure&#10;- Empty CSS&#10;- Empty Javascript">
       <created>1546852574510</created>
@@ -251,11 +219,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547589935681</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="create new page and add some dynamic action to the page elements.">
+      <created>1548109389248</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1548109389249</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189843000" />
+    <option name="totallyTimeSpent" value="194891000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,7 +243,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.021505376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -277,7 +251,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992948" weight="0.42092153" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4992948" visible="true" weight="0.42092153" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4992948" weight="0.0373599" />
@@ -339,7 +313,19 @@
     <MESSAGE value="replace let with const variable key" />
     <MESSAGE value="Description of the &quot;shopping.js&quot; file line by line." />
     <MESSAGE value="style the shopping list using CSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="style the shopping list using CSS" />
+    <MESSAGE value="create new page and add some dynamic action to the page elements." />
+    <option name="LAST_COMMIT_MESSAGE" value="create new page and add some dynamic action to the page elements." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/myPage.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -384,20 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopping.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1674">
@@ -411,15 +383,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="224">
+          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myPage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="865">
+          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="6" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
