@@ -54,6 +54,7 @@ li:hover {
 
 .selected {
   background-color: #99ffaa;
+  color: hotpink;
 }
 
 .tab {

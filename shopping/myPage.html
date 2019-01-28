@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <title>New Page</title>
-      <link rel="stylesheet" href="myPage.css" type="text/css">
-     <script src="myPage.js"></script>
-    </head>
+<html lang="en">
+  <head>
+    <title>New Page</title>
+    <link rel="stylesheet" href="myPage.css" type="text/css">
+    <script src="myPage.js"></script>
+    <script>
 
-    <body dir="rtl">
-      <div id="container">
-        <p id="text">This is a paragraph</p>
+    </script>
+  </head>
 
-        <button id="clickButton" type="button">press here</button>
+  <body dir="rtl">
+    <div id="container">
+      <p id="text">This is a paragraph</p>
 
-        <ul id="menu">
-          <li class="selected">this is the first list item</li>
-          <li>this is the second list item</li>
-          <li>this is the third list item</li>
-          <li>this is the fourth list item</li>
-        </ul>
-      </div>
-    </body>
-  </html>
+      <p id="changeClass">This is the second paragraph</p>
+
+      <button id="clickButton" type="button">press here</button>
+
+      <ul id="menu">
+        <li class="selected" onclick="changeToTab(event, 'selected');">this is the first list item</li>
+        <li  onclick="changeToTab(event, 'tab');">this is the second list item</li>
+        <li>this is the third list item</li>
+        <li>this is the fourth list item</li>
+      </ul>
+    </div>
+  </body>
+</html>

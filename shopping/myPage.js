@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
   /*for (el = 0; el < menuItem.length; el++) {
     menuItem[el].addEventListener('click', selectItem);
   }*/
-  myMenu.addEventListener('click', selectItem);
+    myMenu.addEventListener('click', selectItem);
 
   btn.addEventListener('click', newItem);
 
@@ -25,11 +25,17 @@ document.addEventListener('DOMContentLoaded', function () {
     //alert("the page is updated");
     if (n.target.nodeName === 'LI') {
       headLine.innerHTML = n.target.innerHTML;
-      for (el = 0; el < menuItem.length; el++) {
-        menuItem[el].classList.remove('selected');
+      for (let i = 0; i < menuItem.length; i++) {
+        menuItem[i].classList.remove('selected');
       }
       n.target.classList.add('selected');
     }
   }
 });
+
+function changeToTab(event, className) {
+  let listItem = document.getElementById('text');
+  listItem.className = className;
+}
+
 

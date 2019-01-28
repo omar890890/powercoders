@@ -50,16 +50,15 @@ document.addEventListener('DOMContentLoaded', function (event) {
     console.log(event.key);
     addItemButton.disabled = inputBox.value.trim() === '';
 
-    if (inputBox.value.trim() !== '') {
-      warning.className = ('warning');
-    }
-
-    /*else {
+    /* if (inputBox.value.trim() !== '') {
+       warning.className = ('warning');
+     }
+      else {
+       addItemButton.disabled = true;
+     }
+     if (inputBox.value.trim() === '') {
       addItemButton.disabled = true;
-    }*/
-    /*if (inputBox.value.trim() === '') {
-     addItemButton.disabled = true;
-     }*/
+      }*/
   });
   addItemButton.disabled = true;
   inputBox.focus();
@@ -96,10 +95,12 @@ function createNewListItem(itemText) {
      }*/
     li.remove();
     inputBox.focus();
-    btn.disabled = false;
+    const listItems = document.querySelectorAll('li');
+    btn.disabled = listItems.length === 0;
   });
   return li;
 }
+
 /*
 function elseTest(num) {
   if (num < 10) {
