@@ -1,13 +1,25 @@
-div {
-  border: 5px none rgba(0, 0, 0, .5);
-}
-
-body {
+#skills{
   position: relative;
-  font-family: 'Anonymous Pro', monospace;
-  background-color: white;
 }
 
-h1 {
-  font-family: 'Oswald', sans-serif;
+#technology ul{
+  display: block;
 }
+
+#photo{
+  float: right;
+  margin-top: 0em;
+}
+
+body{
+  padding-left: 2em;
+  background-color: bisque;
+}
+
+h2{
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-decoration-color: blue;
+}
+
+

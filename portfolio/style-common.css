@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(23, 83, 101);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+h1 {
+    background-color: rgba(237, 237, 240);
+    color: rgb(23, 83, 101);
+    border-radius: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: center;
+}
+
+h2 {
+    padding: 3px;
+    text-decoration: underline;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-size: 24px;
+}
+
+span.period {
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+span.degree, span.designation {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+span.dept, span.company {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span.subheading {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: rgb(23, 83, 101);
+    line-height: 2em;
+    display: block;
+}
+
+img {
+    width: 300px;
+}
+
+a.logo-git {
+    padding-left: 1.5em;
+    background: url("GitHub.png") left center no-repeat;
+    background-size: 20px;
+}
+
+a.logo-link {
+    padding-left: 1.5em;
+    background: url("LinkedIn.png") left center no-repeat;
+    background-size: 20px;
+}

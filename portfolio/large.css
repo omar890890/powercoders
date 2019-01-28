@@ -1,13 +1,11 @@
 @media screen and (min-width: 600px){
-body  {
-  display: inline-block;
-
+  body  {
+     display: inline-block;
   }
-
 }
+
 @media screen and (max-width: 600px){
   body{
     display: inline-block;
-  }
-
-  }
+   }
+ }

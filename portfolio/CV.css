@@ -1,42 +1,36 @@
-
+div {
+    border: 2px none rgba(0, 0, 0, 0.1);
+    max-width: fit-content;
+}
+body {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-family: "PT Serif", serif;
+    font-min-size: 14px;
+}
 h1 {
-  color: grey;
-  font-family: 'Oswald', sans-serif;
-  padding-left: 50%;
-}
-
-
-#bodi{
-  border: .5em;
-  font-family: 'Anonymous Pro', monospace;
-  background-color: yellow;
-  position: absolute;
-  right: 1em;
-  top: 1em;
-  width: calc(100% - 24em);
-  min-height: 70vh;
-
-}
-div.info{
-    color: white;
-    line-height: 1em;
-    padding: 1em;
-}
-
-
-
-#part{
-  margin: 0;
-  display: block;
-  background-color: rgba(12, 70, 186, 0.8);
-  border: .5em;
-  width: 22em;
-  position: absolute;
-  left: 1em;
-  top: 1em;
-  min-height: 70vh;
+    background-color: lightskyblue;
+    width: content-box;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
 }
 
 h2 {
-  font-family: 'Source Serif Pro', serif;
+    font-style: oblique;
 }
+
+.date, .date1 {
+             display: block;
+             color: darkblue;
+             font-size: larger;
+}
+
+
+
+/*font-family: 'Unlock', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Staatliches', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Serif', serif;*/

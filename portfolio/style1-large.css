@@ -1,0 +1,41 @@
+div.full {
+    display: flex;
+}
+
+div.content, div.personal {
+    padding: 1em;
+    margin-top: 1em;
+}
+
+div.personal {
+    background-color: rgb(122, 182, 200);
+    width: 25em;
+    margin-right: 1em;
+    order: 1;
+}
+
+div.content {
+    background-color: rgb(237, 237, 240);
+    max-width: calc(100% - 25em);
+    margin-left: 1em;
+}
+
+.large-h1 {
+    display: block;
+}
+
+.small-h1 {
+    display: none;
+}
+
+span.month {
+    display: inline;
+}
+
+span.link {
+    display: inline;
+}
+
+span.linkedin-name, span.git-name {
+    display: none;
+}

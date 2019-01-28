@@ -1,0 +1,10 @@
+#container-personal-info{
+    float: right;
+    padding-left: 2px;
+}
+
+#body{
+    position: relative;
+    background-color: #96A6CFFF;
+    color: #000000;
+}
