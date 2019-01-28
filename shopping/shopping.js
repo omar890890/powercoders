@@ -1,4 +1,10 @@
-document.addEventListener('DOMContentLoaded', function (event) {
+/**
+ *set up event listener and configure initial element state when
+ *  the DOM is ready. *
+  */
+
+function domContentLoaded() {
+  // code that needs to interact with the DOM
   const inputBox = document.getElementById('item');
   const shoppingList = document.querySelector('ul');
   const addItemButton = document.querySelector('button');
@@ -63,7 +69,50 @@ document.addEventListener('DOMContentLoaded', function (event) {
   addItemButton.disabled = true;
   inputBox.focus();
   btn.disabled = true;
+
+
+  function createNewListItem(itemText) {
+    console.log(itemText);
+    const inputBox = document.getElementById('item');
+    const li = document.createElement('li');
+    const span = document.createElement('span');
+    const spanText = document.createTextNode(itemText);
+
+    span.appendChild(spanText);
+    li.appendChild(span);
+
+    const button = document.createElement('button');
+    const text = document.createTextNode('delete');
+    button.appendChild(text);
+    li.appendChild(button);
+    console.log("createElement", li);
+
+    button.addEventListener('click', function (event) {
+      const btn = document.getElementById('clear');
+      console.log('item list deleted: ' + itemText);
+      /* const accept = '';
+       if(prompt(accept) !== ''){
+       }*/
+      li.remove();
+      inputBox.focus();
+      const listItems = document.querySelectorAll('li');
+      btn.disabled = listItems.length === 0;
+    });
+    return li;
+  }
+}
+
+if (document.readyState === 'loading') {
+  // DOMContentLoad has not fired yet.
+  document.addEventListener('DOMContentLoaded', function(event){
+  domContentLoaded();
 });
+} else {
+  // DOMContentLoaded has fired
+  domContentLoaded();
+}
+
+
 
 /**
  * creates and returns an 'li' element for inclusion in the shopping list.
@@ -71,35 +120,6 @@ document.addEventListener('DOMContentLoaded', function (event) {
  * @param {string} itemText Name of the item to add to the list
  * @returns {HTMLElement} li element
  */
-function createNewListItem(itemText) {
-  console.log(itemText);
-  const inputBox = document.getElementById('item');
-  const li = document.createElement('li');
-  const span = document.createElement('span');
-  const spanText = document.createTextNode(itemText);
-
-  span.appendChild(spanText);
-  li.appendChild(span);
-
-  const button = document.createElement('button');
-  const text = document.createTextNode('delete');
-  button.appendChild(text);
-  li.appendChild(button);
-  console.log("createElement", li);
-
-  button.addEventListener('click', function (event) {
-    const btn = document.getElementById('clear');
-    console.log('item list deleted: ' + itemText);
-    /* const accept = '';
-     if(prompt(accept) !== ''){
-     }*/
-    li.remove();
-    inputBox.focus();
-    const listItems = document.querySelectorAll('li');
-    btn.disabled = listItems.length === 0;
-  });
-  return li;
-}
 
 /*
 function elseTest(num) {
