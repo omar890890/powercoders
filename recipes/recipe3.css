@@ -1,13 +1,12 @@
-body{
+body {
   background-color: rgba(238, 186, 70, 0.1);
 }
 
-
-h2{
+h2 {
 font-family: 'PT Mono', monospace;
 }
 
-div#methods{
+div#methods {
   border: 0, 2em, 2em solid rgba(255, 0, 0, 0.5);
   font-weight: bolder;
   position: relative;
@@ -16,10 +15,10 @@ div#methods{
   bottom: 88em;
 
 }
-ol{
+ol {
   line-height: 3em;
 }
-article{
+article {
   width:40em;
   margin: 0 auto;
   max-width: 100%;

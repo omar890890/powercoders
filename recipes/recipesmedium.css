@@ -1,0 +1,13 @@
+@media all and (min-width: 600px) {
+  body {
+    font-size: 50px;
+    background-size: cover;
+    background-color: #b2ebf2;
+  }
+
+  #way {
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: semi-expanded;
+  }
+}

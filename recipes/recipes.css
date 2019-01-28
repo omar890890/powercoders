@@ -1,49 +1,33 @@
-
-body.alink{
-  link="#C0C0C0" vlink="#808080" alink="#FF0000";
+body {
+ background: rgba(233, 244, 37, 0.4);
+ border-bottom: 1px solid #d8dee9;
 }
 
-
-
-
-body{
- background: rgb(233, 244, 37, 0.4);
-border-bottom: 1px solid #d8dee9;
+div#description {
+  margin: 1em 3em 2em;
+  max-width: 20em;
+  font-family: "Helvetica", "Arial", sans-serif;;
+  line-height: 1.5em;
+  padding:  1em 1em;
+  color: rgb(0, 0, 0);
 }
 
-div#discrepion{
-margin: 1em 3em 2em;
-max-width: 20em;
-font-family: "Helvetica", "Arial", sans-serif;;
-line-height: 1.5em;
-padding:  1em 1em;
-color: #555;
-color: rgb(0, 0, 0);
+h1 {
+  text-align: center;
+  position:sticky;
+  top: 10px;
+  color: darkblue;
+  font-weight:bolder;
+  font-style: italic;
+  letter-spacing: 10px;
+   background: #eee;
+   background-size: cover;
 }
-
-h1{
-
-      color: #333;
-
-      text-align: center;
-      position:sticky;
-      -webkit-position: sticky;
-      -moz-position: sticky;
-      top: 10px;
-      color: darkblue;
-      font-weight:bolder;
-      font-style: italic;
-      letter-spacing: 10px;
-       background: #eee;
-       background-size: cover;
-
-
-     }
      /**id is more specific than class you can have one id but many class for the same element**/
 
-div#way{
+div#way {
   background-color: rgba(0, 0, 0, 0.18);
-  font-size: normal
+  font-size: large;
   color: black;
   font-weight: bold;
   border-radius: 1.2em;
@@ -51,46 +35,55 @@ div#way{
   margin: 0 0 5em;
 }
 
-
-h2.head{font-family: 'Oswald', sans-serif;
+h2.head {
+   font-family: 'Oswald', sans-serif;
    text-decoration: underline;
    padding-left: 2em;
    padding-right: 2em;
    background-color: rgba(50, 164, 44, 0.1);
 }
 
-p.introduction
-{border-bottom: 2em;
+p.introduction {
+  border-bottom: 2em;
   border-radius: 2em;
-font-family: 'Anonymous Pro', monospace;
-font-weight: bold;
-padding-left: 2em;
-padding-right: 2em;
-background-color: rgba(224, 224, 200,1.0 );
-width: 40em;
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: bold;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: rgba(224, 224, 200,1.0 );
+  width: 40em;
 }
 
+h2.math {
+  font-family: 'Fredoka One', cursive;
+  border: 5px  dashed rgba(255, 0, 0, 0.5);
+  text-transform: capitalize;
+  font-weight: bold;
+  text-shadow: 32px 5px 0 green;
+  display: block;
+}
 
-
-      h2.meth{
-        font-family: 'Fredoka One', cursive;
-        border: 5px  dashed rgba(255, 0, 0, 0.5);
-        text-transform: capitalize;
-        font-weight: bold;
-        text-shadow: 32px 5px 0px green;
-        display: block;
-
-
-
-     }
-span.quantity {font-style: oblique;
+span.quantity {
+  font-style: oblique;
   font-size: 20px;
   background-color: rgba(150, 180, 160, 0.50);
   color: darkblue;
-text-decoration-color: blue;
-text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration: underline;
+}
 
-     }
-     h2.fish{
-       text
-     }
+span.show {
+    display: inline-block;
+    width: 1em;
+}
+
+span.hide {
+    display: none;
+}
+
+ol.show {
+    display: block;
+}
+ol.hide {
+    display: none;
+}
