@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/shopping.js" line="75" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/shopping.js" line="167" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3730e835-e797-473c-affe-04e0f5448b9f" name="Default Changelist" comment="create new page and add some dynamic action to the page elements.">
-      <change beforePath="$PROJECT_DIR$/../portfolio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio/cv-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/cv-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recipes/probe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../recipes/probe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recipes/recipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../recipes/recipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../recipes/recipes.css" beforeDir="false" afterPath="$PROJECT_DIR$/../recipes/recipes.css" afterDir="false" />
+    <list default="true" id="3730e835-e797-473c-affe-04e0f5448b9f" name="Default Changelist" comment="create new page and add some dynamic action to the page elements.create new page and add some dynamic action to the page elements.">
+      <change afterPath="$PROJECT_DIR$/../Scratch/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Scratch/objects/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Scratch/objects/object.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/myPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/myPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/myPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,24 +32,17 @@
     <favorites_list name="shopping" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="392">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1904">
-              <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -60,8 +50,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shopping.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+            <state relative-caret-position="56">
+              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <folding>
+                <element signature="e#3978#4117#0" />
+                <element signature="e#4183#4369#0" />
+                <element signature="e#4371#4780#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,11 +79,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/shopping.txt" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/myPage.css" />
         <option value="$PROJECT_DIR$/myPage.html" />
         <option value="$PROJECT_DIR$/myPage.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/shopping.js" />
       </list>
     </option>
@@ -101,11 +96,21 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="shopping" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,6 +129,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ToolWindowStructure.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -190,7 +196,10 @@
       <workItem from="1548225302028" duration="4128000" />
       <workItem from="1548423085036" duration="10377000" />
       <workItem from="1548518805472" duration="10000" />
-      <workItem from="1548518858027" duration="9451000" />
+      <workItem from="1548518858027" duration="36406000" />
+      <workItem from="1548837002916" duration="476000" />
+      <workItem from="1548837906383" duration="2182000" />
+      <workItem from="1549014820934" duration="3663000" />
     </task>
     <task id="LOCAL-00001" summary="Initial skeleton for the shopping list.&#10;&#10;- Basic HTML structure&#10;- Empty CSS&#10;- Empty Javascript">
       <created>1546852574510</created>
@@ -269,11 +278,25 @@
       <option name="project" value="LOCAL" />
       <updated>1548223854495</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="disable the delete all button in case the list item is empty.">
+      <created>1548669339175</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1548669339175</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add the async attribute to speed the downloading of the page.">
+      <created>1548690828502</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1548690828504</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220355000" />
+    <option name="totallyTimeSpent" value="253631000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -287,9 +310,9 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49937734" visible="true" weight="0.1473907" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.5006227" side_tool="true" weight="0.16784203" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49564135" visible="true" weight="0.1889986" />
+      <window_info id="Structure" order="1" sideWeight="0.50435865" side_tool="true" weight="0.1889986" />
+      <window_info id="Favorites" order="2" sideWeight="0.50435865" side_tool="true" visible="true" weight="0.1889986" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
@@ -309,28 +332,6 @@
       <window_info anchor="right" x="0" y="0" width="313" height="735" id="Documentation" order="3" side_tool="true" weight="0.3297491" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3297491" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.021505376" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992948" weight="0.42092153" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4992948" weight="0.0373599" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.43835616" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50070524" side_tool="true" weight="0.39975095" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.45330012" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="313" height="735" id="Documentation" order="3" side_tool="true" weight="0.3297491" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3297491" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -358,7 +359,9 @@
     <MESSAGE value="style the shopping list using CSS" />
     <MESSAGE value="create new page and add some dynamic action to the page elements." />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="disable the delete all button in case the list item is empty." />
+    <MESSAGE value="add the async attribute to speed the downloading of the page." />
+    <option name="LAST_COMMIT_MESSAGE" value="add the async attribute to speed the downloading of the page." />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -413,16 +416,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
-          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="392">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
@@ -430,8 +435,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shopping.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+        <state relative-caret-position="56">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#3978#4117#0" />
+            <element signature="e#4183#4369#0" />
+            <element signature="e#4371#4780#0" />
+          </folding>
         </state>
       </provider>
     </entry>
