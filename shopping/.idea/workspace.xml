@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/shopping.js" line="167" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/shopping.js" line="157" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3730e835-e797-473c-affe-04e0f5448b9f" name="Default Changelist" comment="create new page and add some dynamic action to the page elements.create new page and add some dynamic action to the page elements.">
@@ -9,9 +9,7 @@
       <change afterPath="$PROJECT_DIR$/../Scratch/objects/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Scratch/objects/object.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,11 +48,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shopping.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="-476">
+              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
               <folding>
-                <element signature="e#3978#4117#0" />
-                <element signature="e#4183#4369#0" />
+                <element signature="e#4367#4396#0" />
                 <element signature="e#4371#4780#0" />
               </folding>
             </state>
@@ -199,7 +196,7 @@
       <workItem from="1548518858027" duration="36406000" />
       <workItem from="1548837002916" duration="476000" />
       <workItem from="1548837906383" duration="2182000" />
-      <workItem from="1549014820934" duration="3663000" />
+      <workItem from="1549014820934" duration="9675000" />
     </task>
     <task id="LOCAL-00001" summary="Initial skeleton for the shopping list.&#10;&#10;- Basic HTML structure&#10;- Empty CSS&#10;- Empty Javascript">
       <created>1546852574510</created>
@@ -292,11 +289,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548690828504</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="refactoring the code by using the Object feature.">
+      <created>1549024346230</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1549024346231</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253631000" />
+    <option name="totallyTimeSpent" value="259643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -309,10 +313,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49564135" visible="true" weight="0.1889986" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49564135" visible="true" weight="0.1889986" />
       <window_info id="Structure" order="1" sideWeight="0.50435865" side_tool="true" weight="0.1889986" />
-      <window_info id="Favorites" order="2" sideWeight="0.50435865" side_tool="true" visible="true" weight="0.1889986" />
+      <window_info id="Favorites" order="2" sideWeight="0.50435865" side_tool="true" weight="0.1889986" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
@@ -361,7 +366,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="disable the delete all button in case the list item is empty." />
     <MESSAGE value="add the async attribute to speed the downloading of the page." />
-    <option name="LAST_COMMIT_MESSAGE" value="add the async attribute to speed the downloading of the page." />
+    <MESSAGE value="refactoring the code by using the Object feature." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring the code by using the Object feature." />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -435,11 +441,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shopping.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="-476">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
           <folding>
-            <element signature="e#3978#4117#0" />
-            <element signature="e#4183#4369#0" />
+            <element signature="e#4367#4396#0" />
             <element signature="e#4371#4780#0" />
           </folding>
         </state>
