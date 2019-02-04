@@ -1,0 +1,169 @@
+html {
+  background: url("../static/shoppingImage.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Merriweather', serif;
+}
+
+#mainDiv {
+  position: relative;
+}
+
+div#position {
+  background-color: unset;
+  text-align: center;
+  padding: 1em 0;
+  border-radius: 30em;
+  position: sticky;
+  top: 2em;
+}
+
+h1 {
+  color: #000000;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-underline-color: black;
+  padding: 0 1em 1em;
+  font-family: 'Sarabun', sans-serif;
+  font-stretch: semi-expanded;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#item {
+  font-size: x-large;
+  font-family: 'Righteous', cursive;
+}
+
+#quantity {
+  width: 2em;
+  font-size: x-large;
+  font-family: 'Righteous', cursive;
+}
+
+button {
+  color: black;
+  background-color: gainsboro;
+  font-size: x-large;
+}
+
+button i {
+  color: blue;
+}
+
+button:hover {
+  color: #ffffff;
+  text-transform: capitalize;
+  background-color: #11F342;
+}
+
+label {
+  font-weight: bold;
+  padding-left: .5em;
+}
+
+li button {
+  color: rgba(0, 0, 0, 1.0);
+  background-color: white;
+  border-radius: 60%;
+  border: 1px solid green;
+  padding: 1px;
+  font-size: 32px;
+  text-decoration-style: solid;
+  margin-left: 4em;
+  margin-bottom: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 100px;
+}
+
+li button:hover {
+  background-color: darkred;
+}
+
+.warning {
+  display: block;
+  color: red;
+}
+
+#hidden {
+  display: none;
+}
+
+li {
+  background-color: gainsboro;
+  padding: 1em 1em 0;
+}
+
+#mySidenav {
+  background-color: white;
+}
+
+#mySidenav a {
+  position: absolute;
+  left: -60px;
+  transition: .1s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 12px;
+  background-color: rgba(0, 255, 0, .5);
+}
+
+#ourService {
+  background-color: rgba(255, 0, 0, .5);
+  top: 77px;
+}
+
+#projects {
+  background-color: rgba(0, 0, 255, .5);
+  top: 144px;
+}
+
+#contact {
+  top: 210px;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+#aboutUs {
+  top: 275px;
+  background-color: #fff44336;
+}
+
+
+/*
+img.bg {
+    !* Set rules to fill background *!
+    min-height: 100%;
+    min-width: 1024px;
+
+    !* Set up proportionate scaling *!
+    width: 100%;
+    height: auto;
+
+    !* Set up positioning *!
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1024px) { !* Specific to this particular image *!
+    img.bg {
+        left: 50%;
+        margin-left: -512px;   !* 50% *!
+    }
+}
+
+*/
