@@ -10,14 +10,20 @@ class Model {
     console.log('model initialised');
 
     /** @private {!ShoppingListItem[]} Items in the list */
-    this.items_ = [
-      new ShoppingListItem('first item', 'q1'),
-      new ShoppingListItem('second item', 'q2'),
-      new ShoppingListItem('third item', 'q3')
-    ];
+    this.items_ = [];
 
     /** @private {!View} view for this model. */
     this.view_ = new View(this, controller);
+    this.view_.update();
+  }
+
+  /**
+   * appends a new item to list.
+   * @param item {!ShoppingListItem}
+   * @returns {ShoppingListItem[]}
+   */
+  append(item) {
+    this.items_.push(item);
     this.view_.update();
   }
 
