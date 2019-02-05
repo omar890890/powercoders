@@ -5,7 +5,7 @@ class Controller {
   constructor() {
     console.log('controller running');
 
-    /** @private {!model} Application model */
+    /** @private {!Model} Application model */
     this.model_ = new Model(this);
   }
 }
