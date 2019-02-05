@@ -41,17 +41,11 @@ class ShoppingListItem {
     li.appendChild(button);
     console.log("createElement", li);
 
-    button.addEventListener('click', function (event) {
-      const btn = document.getElementById('clear');
-      console.log('item list deleted: ' + this);
-      /* const accept = '';
-       if(prompt(accept) !== ''){
-       }*/
-      li.remove();
-      inputBox.focus();
-      const listItems = document.querySelectorAll('li');
-      btn.disabled = listItems.length === 0;
-    });
+    const btn = document.getElementById('clear');
+    inputBox.focus();
+    const listItems = document.querySelectorAll('li');
+    btn.disabled = listItems.length === 0;
+
     return li;
   }
 }

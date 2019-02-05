@@ -52,6 +52,12 @@ addItem() {
       const item = this.model_.items[i];
       const listItem = item.toListItem();
       this.shoppingList_.appendChild(listItem);
+
+      const deleteButton = listItem.querySelector('button');
+      deleteButton.addEventListener('click',
+          () => this.controller_.deleteItem(i));
+
+      this.shoppingList_.appendChild(listItem);
     }
 
     this.inputBox_.value = '';
