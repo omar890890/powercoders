@@ -29,6 +29,11 @@ class View {
 
     this.addItemButton_.addEventListener('click', () => this.addItem());
 
+    /** @param {!HTMLElement} Button to clear the list */
+    this.clearListButton_ = document.getElementById('clear');
+    this.clearListButton_.addEventListener('click', () => this.controller_.clearList());
+
+
   }
 
   /**
@@ -63,5 +68,6 @@ addItem() {
     this.inputBox_.value = '';
     this.quantityBox_.value = '';
     this.inputBox_.focus();
+    this.clearListButton_.disabled = this.model_.items.length === 0;
   }
 }

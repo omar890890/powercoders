@@ -17,6 +17,10 @@ class Model {
     this.view_.update();
   }
 
+  get items() {
+    return this.items_.slice();
+  }
+
   /**
    * appends a new item to list.
    * @param item {!ShoppingListItem}
@@ -37,7 +41,12 @@ delete(i) {
   this.view_.update();
   }
 
-  get items() {
-    return this.items_.slice();
+
+  /** Clear the shopping list of all items.
+   *
+   */
+  clear() {
+    this.items_ = [];
+    this.view_.update();
   }
 }
