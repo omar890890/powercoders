@@ -6,17 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3730e835-e797-473c-affe-04e0f5448b9f" name="Default Changelist" comment="create new page and add some dynamic action to the page elements.create new page and add some dynamic action to the page elements.">
       <change afterPath="$PROJECT_DIR$/../Scratch/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Scratch/objects/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Scratch/objects/object.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shopping-mvc/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shopping-mvc/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shopping-mvc/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shopping-mvc/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shopping-mvc/src/js/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../shopping-mvc/src/js/controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shopping-mvc/src/js/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/../shopping-mvc/src/js/model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shopping-mvc/src/js/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/../shopping-mvc/src/js/view.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shopping.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
-              <caret line="181" lean-forward="true" selection-start-line="181" selection-end-line="181" />
+            <state relative-caret-position="55">
+              <caret line="134" column="32" lean-forward="true" selection-start-line="134" selection-start-column="32" selection-end-line="134" selection-end-column="32" />
               <folding>
                 <element signature="e#4367#4396#0" />
                 <element signature="e#4371#4780#0" />
@@ -102,8 +92,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1155" />
+    <option name="width" value="1635" />
     <option name="height" value="1323" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -216,7 +205,7 @@
       <workItem from="1548518858027" duration="36406000" />
       <workItem from="1548837002916" duration="476000" />
       <workItem from="1548837906383" duration="2182000" />
-      <workItem from="1549014820934" duration="21578000" />
+      <workItem from="1549014820934" duration="22193000" />
     </task>
     <task id="LOCAL-00001" summary="Initial skeleton for the shopping list.&#10;&#10;- Basic HTML structure&#10;- Empty CSS&#10;- Empty Javascript">
       <created>1546852574510</created>
@@ -327,7 +316,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271546000" />
+    <option name="totallyTimeSpent" value="272161000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -468,8 +457,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shopping.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="181" lean-forward="true" selection-start-line="181" selection-end-line="181" />
+        <state relative-caret-position="55">
+          <caret line="134" column="32" lean-forward="true" selection-start-line="134" selection-start-column="32" selection-end-line="134" selection-end-column="32" />
           <folding>
             <element signature="e#4367#4396#0" />
             <element signature="e#4371#4780#0" />
