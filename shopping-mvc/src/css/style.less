@@ -1,3 +1,6 @@
+@background-color: #ffffff;
+@color :  rgba(0, 0, 0, 1.0);
+@textAlign: center;
 html {
   background: url("../static/shoppingImage.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -13,7 +16,7 @@ html {
 
 div#position {
   background-color: unset;
-  text-align: center;
+  text-align: @textAlign;
   padding: 1em 0;
   border-radius: 30em;
   position: sticky;
@@ -21,7 +24,7 @@ div#position {
 }
 
 h1 {
-  color: #000000;
+  color: @color ;
   text-decoration: underline;
   text-underline-position: under;
   text-underline-color: black;
@@ -29,7 +32,7 @@ h1 {
   font-family: 'Sarabun', sans-serif;
   font-stretch: semi-expanded;
   text-transform: capitalize;
-  text-align: center;
+  text-align: @textAlign;
 }
 
 #item {
@@ -44,7 +47,7 @@ h1 {
 }
 
 button {
-  color: black;
+  color: @color ;
   background-color: gainsboro;
   font-size: x-large;
 }
@@ -54,7 +57,7 @@ button i {
 }
 
 button:hover {
-  color: #ffffff;
+  color: @background-color;
   text-transform: capitalize;
   background-color: #11F342;
 }
@@ -65,8 +68,8 @@ label {
 }
 
 li button {
-  color: rgba(0, 0, 0, 1.0);
-  background-color: white;
+  color: @color;
+  background-color: @background-color;
   border-radius: 60%;
   border: 1px solid green;
   padding: 1px;
@@ -98,7 +101,7 @@ li {
 }
 
 #mySidenav {
-  background-color: white;
+  background-color: @background-color;
 }
 
 #mySidenav a {
