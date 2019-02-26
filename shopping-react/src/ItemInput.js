@@ -8,7 +8,7 @@ class ItemInput extends Component {
       quantity: ''
     };
     this.onItemChange = this.onItemChange.bind(this);
-    this.onQuantityChange= this.onQuantityChange.bind(this)
+    this.onQuantityChange = this.onQuantityChange.bind(this)
   }
 
   onItemChange(event) {
@@ -25,7 +25,9 @@ class ItemInput extends Component {
           <label htmlFor="item"> Enter a new item:</label>
           <input onChange={this.onQuantityChange} type="text" id="quantity" size="8" placeholder="quantity"/>
           <input onChange={this.onItemChange} type="text" id="item" placeholder="type something to buy"/>
-          <button id="add">Add item</button>
+          <button onClick={() => this.props.onAddItem(this.state.item.trim(), this.state.quantity.trim())}
+                  id="add">Add item
+          </button>
         </div>
     );
   }

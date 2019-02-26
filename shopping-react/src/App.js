@@ -8,13 +8,22 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      items: ['first item', 'second item', 'third item'],
+      items: [],
     };
+    this.onAddItem = this.onAddItem.bind(this);
+  }
+  onAddItem(name, quantity) {
+    let item = name;
+    if (quantity !== '') {
+      item = item + `(${quantity})`;
+    }
+    this.setState((prevState) => ({items: prevState.items.concat(item)}));
+    //items: [...this.state.items, item]});
   }
   render() {
     return (
      <>
-       <ItemInput/>
+       <ItemInput onAddItem={this.onAddItem}/>
        <ClearList/>
        <ShoppingList items={this.state.items}/>
        </>
