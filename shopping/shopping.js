@@ -1,5 +1,4 @@
 /**
- *you write the JSDoc that goes here
  * @param name {string} Name of the Item
  * @param quantity {string} Quantity of the item
  *@constructor
@@ -137,7 +136,6 @@ function domContentLoaded() {
   btn.disabled = true;
 }
 
-
 if (document.readyState === 'loading') {
   // DOMContentLoad has not fired yet.
   document.addEventListener('DOMContentLoaded', function (event) {
@@ -147,35 +145,3 @@ if (document.readyState === 'loading') {
   // DOMContentLoaded has fired
   domContentLoaded();
 }
-
-
-/**
- * creates and returns an 'li' element for inclusion in the shopping list.
- *
- * @param {string} itemText Name of the item to add to the list
- * @returns {HTMLElement} li element
- */
-
-/*
-function elseTest(num) {
-  if (num < 10) {
-    console.log('less than 10');
-
-  } else if (num > 10) {
-    console.log('bigger than 10');
-  } else if (num === 10) {
-    console.log('exactly 10');
-  }
-}
-
-function elseTest2(num) {
-  if (num < 10) {
-    console.log('less than 10');
-  } else if (num > 10) {
-    console.log('bigger than 10');
-  } else if (num === 10) {
-    console.log('exactly 10');
-  }
-}
-
-*/
